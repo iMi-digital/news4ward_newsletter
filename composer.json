@@ -1,0 +1,41 @@
+{
+  "name": "psi/news4ward_newsletter",
+  "description": "News4ward Newsletter: Quickly send a Contao newsletter filled with variables comming from a News4ward article.",
+  "keywords": ["contao", "blog", "news4ward", "newsletter"],
+  "type": "contao-module",
+  "homepage": "https://github.com/psi-4ward/news4ward_newsletter",
+  "license": "LGPL-3.0+",
+  "authors": [
+    {
+      "name": "Christoph Wiechert",
+      "email": "wio@psitrax.de",
+      "homepage": "http://4wardmedia.de",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "wio@psitrax.de",
+    "issues": "https://github.com/psi-4ward/news4ward_newsletter/issues",
+    "forum": "https://community.contao.org/de/forumdisplay.php?110-4ward",
+    "irc": "irc://irc.freenode.org/contao.dev",
+    "source": "https://github.com/psi-4ward/news4ward_newsletter"
+  },
+  "require": {
+    "php": ">=5.3",
+    "contao/core": ">=3.1,<3.3",
+    "psi/news4ward": "~2"
+  },
+  "conflict": {
+    "contao/core": "3.0.*"
+  },
+  "extra": {
+    "contao": {
+      "sources": {
+        "": "system/modules/news4ward_newsletter"
+      }
+    },
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}

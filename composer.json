@@ -1,5 +1,5 @@
 {
-  "name": "psi/news4ward_newsletter",
+  "name": "imi/news4ward_newsletter",
   "description": "News4ward Newsletter: Quickly send a Contao newsletter filled with variables comming from a News4ward article.",
   "keywords": ["contao", "blog", "news4ward", "newsletter"],
   "type": "contao-module",
@@ -11,20 +11,27 @@
       "email": "wio@psitrax.de",
       "homepage": "http://4wardmedia.de",
       "role": "Developer"
+    },
+    {
+      "name": "iMi digital GmbH",
+      "homepage": "https://www.imi-digital.de",
+      "role": "Maintainer"
     }
   ],
   "support": {
-    "email": "wio@psitrax.de",
-    "issues": "https://github.com/psi-4ward/news4ward_newsletter/issues",
+    "issues": "https://github.com/iMi-digital/news4ward_newsletter/issues",
     "forum": "https://community.contao.org/de/forumdisplay.php?110-4ward",
     "irc": "irc://irc.freenode.org/contao.dev",
-    "source": "https://github.com/psi-4ward/news4ward_newsletter"
+    "source": "https://github.com/iMi-digital/news4ward_newsletter"
   },
   "require": {
     "php": ">=5.3",
     "contao/core-bundle": "^3.2.1 || ^4.4",
     "contao-community-alliance/composer-plugin": "^2.4 || ^3.0",
-    "psi/news4ward": "~2"
+    "imi/news4ward": "~2"
+  },
+  "replace":{
+    "psi/news4ward_newsletter": "self.version"
   },
   "extra": {
     "contao": {
